@@ -1,0 +1,36 @@
+footer {
+    background-color: #5F3CA1;
+    padding-top: 8.8rem;
+    padding-bottom: 3.9rem;
+}
+
+footer main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-bottom: 1px solid #FF4500;
+    padding-bottom: 2.5rem;
+}
+
+footer main .area-left img {
+ max-width: 11.0rem;
+}
+
+footer main nav{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 77.7rem;
+}
+
+footer main nav .item ul li a{
+    font-family:  'Sora', sans-serif;
+    font-size: 1.4rem;
+    line-height: 3.5rem;
+    color: #FFFFFF;
+}
+
+
+
+
+

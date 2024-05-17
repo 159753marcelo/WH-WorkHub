@@ -1,0 +1,35 @@
+header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 11.9rem;
+    background-color: #5F3CA1;
+}
+
+.cabeca a img{
+    width: 100%;
+    max-width: 110px;
+    padding-top: 20px;
+}
+
+.cabeca01 nav ul{
+    display: flex;
+    justify-content: end;
+}
+.cabeca01 nav ul li a span {
+    font-size: 1.6rem;
+    margin-left: 5.6rem;
+    line-height: 1.9rem;
+    color:#FFFFFF;
+}
+/*Ficou obsoleto*/
+.WW{
+    max-width: 100%;
+    height: 100px;
+    background-color:#FF4500 ;
+}
+.WR{
+    max-width: 100%;
+    height: 100px;
+    background-color:#FF4500 ;
+}

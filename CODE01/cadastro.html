@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADASTRO WORKHUB</title>
+    <link rel="stylesheet" href="/CODE01/CSS/styleCadastro.css">
+</head>
+<body>
+    <div class="cadastro-container"> 
+        <a href="/CODE01/workH.html" >
+            <img src="IMG/logol.png" alt=" logo WorkHub">  
+        </a>
+    <h1> CADASTRE-SE NO WORK HUB !</h1>
+    <form action="#" method="post">
+        <div class="input-group"> 
+        <label for="campo_nome">Nome: </label>
+        <input id="campo_nome" type="text" placeholder="Digite seu nome" required>
+        <br><br>
+        <label for="cpf">CPF:</label>
+        <input type="text" id="cpf" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="000.000.000-00" required>
+        <br><br>
+        <label for="campo_rg"> Identidade: </label>
+        <input id="campo_rg" type="text" placeholder="Digite sua Identidade" required>
+        <label for="campo_órgão"> Órgão Expeditor: </label>
+        <select nomme="Órgão Expeditor" required>
+            <option selected disabled value=" "> Órgão</option>
+            <option value=" SDS"> SDS</option>
+            <option value=" SSP"> SSP</option>
+        </select>
+        <br><br>
+        <label for="campo_email"> Email: </label>
+        <input id="campo_email" type="email" placeholder="Digite seu Email" required>
+        <label for="campo_email"> Confrime seu Email: </label>
+        <input id="campo_email" type="email" placeholder="Confirme seu Email" required>
+        <br><br>
+        <label for="campo_endereço"> Endereço: </label>
+        <input id="campo_endereço" type="text" placeholder="Digite seu Endereço" required>
+        <label for="campo_endereço"> Número: </label>
+        <input id="campo_endereço" type="text" placeholder="Número" required>
+        <label for="campo_endereço"> Complemento: </label>
+        <input id="campo_endereço" type="text" placeholder="Complemento" required>
+        <label for="campo_endereço"> CEP: </label>
+        <input id="campo_endereço" type="text" placeholder="CEP" required>
+        <label for="campo_endereço"> Cidade: </label>
+        <select nomme="Órgão Expeditor" required>
+            <option selected disabled value=" "> Cidade</option>
+            <option value=" São Lourenço da Mata"> São Lourenço da Mata</option>
+            <option value=" Camaragibe"> Camaragibe</option>
+        </select>
+        <br><br>
+        <label for="campo_endereço"> UF: </label>
+        <input id="UF" type="checkbox" name="UF" value="UF" required>
+        <label for="UF"> PE </label>
+        <br><br>
+        <label for="campo_senha"> Senha: </label>
+        <input id="campo_senha" type="password" placeholder="Digite sua Senha" required>
+        <label for="campo_senha"> Confrime sua senha: </label>
+        <input id="campo_senha" type="password" placeholder="Confrime sua Senha" required>
+        </div>
+        <br><br>
+        <button type="submit"> FINALIZAR CADASTRO</button>
+    </div>
+</body>
+</html>
